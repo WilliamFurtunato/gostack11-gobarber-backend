@@ -14,5 +14,5 @@ app.use('/files', express.static(uploadConfig.directory));
 app.use(routes);
 
 app.listen(3333, () => {
-  console.log('Server start on port 3333');
+  console.log(' 😎 Server start on port 3333');
 });
